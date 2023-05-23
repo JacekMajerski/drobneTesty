@@ -4,7 +4,7 @@ const imagePath = '../fixtures/'+ imageName
 
 describe('E2E wysylka zgloszenia z zalacznikiem', () => {
 	it('wysylka do BOK', () => {
-		cy.visit('https://tatuum2.dsdevphp3.m4u.pl/');
+		cy.visit('/');
 		cy.contains(
 			'[style="text-transform: unset;"]',
 			'Akceptuj wszystkie'
